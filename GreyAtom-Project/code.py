@@ -1,0 +1,35 @@
+# --------------
+class_1=['Geoffrey Hinton','Andrew Ng','Sebastian Raschka','Yoshua Bengio']
+class_2=['Hilary Mason','Carla Gentry','Corinna Cortes']
+new_class= class_1 + class_2
+print(new_class)
+new_class.append("Peter Warden")
+print(new_class)
+new_class.remove("Carla Gentry")
+print(new_class)
+
+#2
+courses = {'math':65, 'english':70, 'history':80, 'french':70, 'science':60}
+Marks = courses.values()
+total = sum(Marks)
+print(total)
+percentage = (total/500)*100
+print(percentage)
+
+#3
+mathematics = {'Geoffrey Hinton':78, 'Andrew Ng':95,
+ 'Sebastian Raschka':65, 'Yoshua Bengio':50, 'Hilary Mason':70, 
+ 'Corinna Cortes':66, 'Peter Warden':75}
+topper = max(mathematics, key=mathematics.get)
+print(topper)
+
+#4
+print('-'*20)
+first_name=topper.split()[0]
+last_name=topper.split()[1]
+full_name = last_name + " " +  first_name
+print(full_name)
+certificate_name = full_name.upper()
+print(certificate_name)
+
+
