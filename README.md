@@ -5,3 +5,7 @@ The GreyAtom Python for Data Science program covers the essential parts of the P
 - Manipulating matrices using NumPy
 - Data Wrangling with Pandas
 - Visualizing Data using Matplotlib
+
+* Pull Request :-
+   ❤️ New Suggestions and Ideas Are most welcome
+   
